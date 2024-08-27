@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TABLAS/COLUMNAS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"></head>
+  <body>
+    <form >
+        <div class="container mt-3" >
+            <div class="mb-3 row">
+                <div class="col-sm-4">
+                  <input type="text" id="cedula" class="form-control" aria-describedby="cedulaHelpInline" placeholder="Cédula">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <div class="col-sm-4">
+                  <input type="text" id="nombres" class="form-control" aria-describedby="nombresHelpInline" placeholder="Nombres">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <div class="col-sm-4">
+                  <input type="number" id="numero" class="form-control" aria-describedby="numeroHelpInline" placeholder="Edad">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <div class="col-sm-4">
+                  <input type="email" id="correo" class="form-control" aria-describedby="correoHelpInline" placeholder="Correo Electronico">
+                </div>
+            </div>
+
+            <button class="btn btn-primary">               
+                <i class="bi bi-plus-circle-fill"></i>
+            Guardar
+            </button>
+
+            
+                <table class="table table-bordered mt-3">
+                    <thead class="thead-light">
+                    <tr>
+                        <th scope="col">CEDULA</th>
+                        <th scope="col">NOMBRES</th>
+                        <th scope="col">EDAD</th>
+                        <th scope="col">CORREO</th>
+                        <th scope="col">OPCIONES</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2350979130</td>
+                            <td>Anthony</td>
+                            <td>22</td>
+                            <td>buriil2018@gmail.com</td>
+                            <td>
+                                <button class="btn btn-primary btn-sm">
+                                    <i class="bi bi-pencil-square"></i>  Editar
+                                </button>
+                                <button class="btn btn-danger btn-sm" >
+                                    <i class="bi bi-x-circle-fill"></i>  Eliminar
+                                </button>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>2350449712</td>
+                            <td>Melany</td>
+                            <td>22</td>
+                            <td>melany@gmail.com</td>
+                            <td>
+                                <button class="btn btn-primary btn-sm">
+                                    <i class="bi bi-pencil-square"></i>  Editar
+                                </button>
+                                <button class="btn btn-danger btn-sm" >
+                                    <i class="bi bi-x-circle-fill"></i>  Eliminar
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2263547895</td>
+                            <td>Don Pagua Yaku</td>
+                            <td>21</td>
+                            <td>todoyaku@gmail.com</td>
+                            <td>
+                                <button class="btn btn-primary btn-sm">
+                                    <i class="bi bi-pencil-square"></i>  Editar
+                                </button>
+                                <button class="btn btn-danger btn-sm" >
+                                    <i class="bi bi-x-circle-fill"></i>  Eliminar
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>0803445378</td>
+                            <td>YULY MISHELLE</td>
+                            <td>22</td>
+                            <td>yulycarvajal1234@gmail.com</td>
+                            <td>
+                                <button class="btn btn-primary btn-sm">
+                                    <i class="bi bi-pencil-square"></i>  Editar
+                                </button>
+                                <button class="btn btn-danger btn-sm" >
+                                    <i class="bi bi-x-circle-fill"></i>  Eliminar
+                                </button>
+                            </td>
+                        </tr>
+                
+                    
+                    </tbody>
+                </table>
+            
+            </div>
+        </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
